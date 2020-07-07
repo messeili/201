@@ -8,7 +8,7 @@ switch (myPlace.toLowerCase()) {
        // console.log('Amazing '+ userName+ " yes I live in Amman")
         break;
     case 'no':
-        alert("Well " + userName + "I live in amman")
+        alert("Well " + userName + " I live in amman")
       //  console.log("Well " + userName + "I live in amman")
         break;
 
