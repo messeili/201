@@ -16,21 +16,21 @@ switch (myPlace.toLowerCase()) {
         break;
 }
 var myAge = prompt(userName + " do you how old am I?");
-if (myAge.toLowerCase = 'yes') {
+if (myAge.toLowerCase() = 'yes') {
         alert('You are smart '+ userName + " yes I am 27 years old");
         //console.log('You are smart '+ userName+ " yes I am 27 years old");
 } else{
-    alert("Well " + userName + " I live in amman");
+    alert("Well " + userName + " I am 27 years old");
     //console.log("Well " + userName + "I live in amman");
 }
 
 var myMajor = prompt(userName + " Did I studied computer science at collage?");
 switch (myAge.toLowerCase()) {
-    case 'no':
+    case 'yes':
         alert('Thats not correct '+ userName + " I studied Mechanical Engineering in collage");
       //  console.log('Thats not correct '+ userName+ " I studied Mechanical Engineering in collage");
         break;
-    case 'yes':
+    case 'no':
         alert("Well" + userName + " seem that you knows me very well I studied Mechanical Engineering");
       //  console.log("Well" + userName + " seem that you knows me very well I studied Mechanical Engineering");
         break;
@@ -45,7 +45,7 @@ switch (myCollage.toLowerCase()) {
         //console.log('Thats correct '+ userName );
         break;
     case 'no':
-        alert("Well" + userName.toUpperCase() + " I have to tell you that unfoutunately statuied at Hashemite University");
+        alert("Well " + userName.toUpperCase() + " I have to tell you that unfoutunately statuied at Hashemite University");
         //console.log("Well" + userName + " I have to tell you that unfoutunately statuied at Hashemite University");
         break;
     default:
