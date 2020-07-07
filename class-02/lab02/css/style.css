@@ -13,3 +13,17 @@ footer{
 nav{
     display: inline;
 }
+
+p{
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+
+}
+
+h1{
+    text-align: left;
+    font-size: larger;
+    color: aliceblue;
+    
+}
