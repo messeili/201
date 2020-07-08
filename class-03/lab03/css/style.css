@@ -10,14 +10,30 @@ footer{
     margin-block-end: 20px;
 }
 
-nav{
+a{
     display: inline;
+    text-decoration: none;
+    text-emphasis: bold;
+    color: aliceblue;
+}
+li{
+    display: inline;
+    text-align: center;
+}
+nav{
+    background-color: black;
+    display: inline-block;
+    border: 3px white solid;
+    text-align: center;
+    align-items: center;
 }
 
 p{
     text-align: center;
     font-size: larger;
     color: aliceblue;
+    border: 3px black solid;
+    background-color: black;
 
 }
 
