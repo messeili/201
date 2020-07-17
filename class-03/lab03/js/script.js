@@ -34,7 +34,7 @@ switch (myMajor.toLowerCase()) {
       //  console.log('Thats not correct '+ userName+ " I studied Mechanical Engineering in collage");
         break;
     case 'no':
-        alert("Well" + userName + " seem that you knows me very well I studied Mechanical Engineering");
+        alert("Well " + userName + " seem that you knows me very well I studied Mechanical Engineering");
         userPoints+=5;
       //  console.log("Well" + userName + " seem that you knows me very well I studied Mechanical Engineering");
         break;
