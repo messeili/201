@@ -7,23 +7,43 @@ body{
 }
 
 footer{
-    margin-block-end: 20px;
+    margin-top: 250px;
 }
 
 nav{
-    display: inline;
+    background-color: white;
+    margin-right: 60px;
+    display: inline-block;
 }
+nav ul li{
+    
+    margin-right: 250px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 p{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-size: larger;
     color: aliceblue;
-
+    background-color: grey;
+    display: inline-block;
 }
 
 h1{
     text-align: left;
     font-size: larger;
-    color: aliceblue;
+    color: black;
+    background-color: blanchedalmond;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+
     
 }
