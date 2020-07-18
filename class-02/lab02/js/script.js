@@ -24,6 +24,7 @@ if (myAge.toLowerCase() == 'yes') {
     //console.log("Well " + userName + "I live in amman");
 }
 
+
 var myMajor = prompt(userName + " Did I studied computer science at collage?");
 switch (myMajor.toLowerCase()) {
     case 'yes':
