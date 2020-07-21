@@ -25,18 +25,18 @@
     a{
         color: aliceblue;
     }
-    li{
-        display: inline-block;
+    nav li{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 13px;
         font-size: large;
+        display: inline-block;
+        text-decoration: none;
     }
     nav{
         background-color: rgba(0, 0, 0, 0.61);
         height: 50px;
         text-align: center;
         align-items: center;
-        text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
@@ -46,7 +46,9 @@
         color: aliceblue;
         border: 3px black solid;
         background-color: black;
-        margin-top: 0px;
+        display: inline;
+        margin-left: 150px;
+        margin-right: auto;
     
     }
     
@@ -64,13 +66,28 @@
         /* margin-left: 210px; */
         /* margin-top: 100px; */
         size: 40px;
-        font-size: 20px;
-        background-color: salmon;
+        font-size: 30px;
+        background-color: white;
         margin-left: 20px;
         margin-right: 20px;
+        font-weight: bolder;
     }
     
     #buttons{
-        margin-top: 250px;
-        margin-left: 380px;
-    } 
+        margin-top: 70px;
+        margin-left: 200px;
+    }
+    
+    div{
+        display: inline-block;
+       
+    }
+
+    div li{
+        text-align: left;
+        margin-top: 20px;
+        font-size: large;
+        text-decoration: none;
+        font-size: larger;
+        font-weight: bold;
+    }

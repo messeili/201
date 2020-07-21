@@ -74,6 +74,9 @@ switch (myFavaroutMeal.toLowerCase()) {
 
 var questions = ["Ok " + userName + " lets play agame please guess a Number between (0-50)",
 "Ok " + userName + " lets play another agame enter a name of toyota cars model"];
+guessNumber();
+toyotaCars();
+finalResult();
 
 function guessNumber() {
     var myNum = 26;
@@ -102,7 +105,7 @@ function toyotaCars() {
     var myArayCars = ['Avalon', 'Camry', 'Corolla', 'Prius', 'Yaris', 'Hilux'];
     var guessCarModel = prompt(questions[1]);
     var correct = false;
-    debugger
+   
 
     for (var j = 6; j > 0; j--) {
         for (var i = 0; i < myArayCars.length; i++) {
@@ -112,7 +115,7 @@ function toyotaCars() {
         }
         if (correct) {
             userPoints += 5;
-            alert("Thats correct " + userName + " thank you, your points: "+userPoints);
+            alert("Thats correct " + userName + " thank you");
             
             break;
 
@@ -123,9 +126,12 @@ function toyotaCars() {
     }
     if (correct == false) {
         alert("You exceeded your guesing times the true answers are: " + myArayCars);
-        alert( userName + "  your points: "+userPoints);
     }
 
+}
+
+function finalResult(){
+    alert(userName + "  your points: "+userPoints);
 }
 
 
